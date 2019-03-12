@@ -10,11 +10,11 @@
 
 double *matrix1D(int np)
 {
-	/*
-	 * This function allocates memory for a vector of doubles.
-	 * A pointer a to the memory allocated is returned by the
-	 * function.
-	 */
+    /*
+     * This function allocates memory for a vector of doubles.
+     * A pointer a to the memory allocated is returned by the
+     * function.
+     */
 
     double *a;
 
@@ -26,11 +26,11 @@ double *matrix1D(int np)
 
 double **matrix2D(int nm, int np)
 {
-	/*
-	 * This function allocates memory for a matrix of doubles.
-	 * A pointer m to the memory allocated is returned by the
-	 * function.
-	 */
+    /*
+     * This function allocates memory for a matrix of doubles.
+     * A pointer m to the memory allocated is returned by the
+     * function.
+     */
 
    int i;
    double **m;
